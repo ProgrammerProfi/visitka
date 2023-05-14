@@ -1,0 +1,47 @@
+body{
+    background-image: url("pictures/fon.jpg");
+    width: 99%;
+    height: auto;
+    cursor: url('pictures/1.png'), auto;
+
+}
+
+
+.frog{
+    display: flex;
+    align-items: flex-start;
+
+
+
+}
+
+
+
+.hero_links {
+    display: flex;
+  }
+
+
+  .hero_link {
+    margin-right: 10px;
+    font-size: 30px;
+    color: black;
+    transition: color 0,3s;
+  }
+
+.pom{
+    background-color: rgba(255, 255, 255, 0);
+    width: 950px;
+    height: 70px;
+
+}
+.pon{
+    margin-left:30px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);     ;
+    
+}
+.err{
+display: flex;
+    align-items: flex-start;
+}
