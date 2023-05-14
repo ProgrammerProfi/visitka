@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="shortcut icon" href="pictures/favicon.ico" type="image/x-icon">
+    <style>
+       </style>
+</head>
+<body>
+    <h1>Меня зовут Емельян и я веб программист</h1>
+    <div class="frog">
+    
+        <img srcset="pictures/fon.jpg 320w,
+        pictures/1.jpg 480w,
+        pictures/1234.jpg 800w"
+sizes="(max-width: 320px) 280px,
+       (max-width: 480px) 440px,
+       800px"
+src="pictures/1234.jpg" alt="Elva dressed as a fairy">
+    <ol>
+        <ul><p style="   font-size: 30px; display: inline-block;" >Мне двенадцать лет,</p></ul>
+        <ul><p style="   font-size: 30px; display: inline-block;" >и я учусь на отлично в шестом классе</p></ul>
+       </ol>
+
+</div>
+
+  <h2>Мои навыки</h2>
+  <ol>
+    <li>Программист<ul>
+        <li>На HTML - 3 года</li>
+        <li>На JavaSkript - 1 год</li>
+        <li>На CSS 1,5 - года</li>
+       </ul></li>
+    <li>Выжигание по дереву - 3 года</li>
+    <!-- <li>Сборка компьютеров и подбор комплектующих - 2 года</li> -->
+   </ol>
+  <h2>Мои проекты</h2>
+ <table >
+    <tr>
+        <td><input type="button" name="button" value="Калькулятор" onclick="calc()"></td>
+     <td>Завершено</td>
+    </tr>
+    <tr>
+     <td><form action="JS1.html" target="_blank">
+        <button>Электро-принт
+        </button></form>    </td>
+     <td>В разработке</td>
+   </tr>
+   <tr>
+    <td><form action="vitsit.html" target="_blank">
+       <button>Визитка
+       </button></form>    </td>
+    <td>В разработке</td>
+  </tr>
+</table>
+  <p><a href="https://forms.yandex.ru/u/6444e08f068ff0104543cb9c/"><h2>Свяжитесь со мной</h2></a></p>
+  <div class="hero_links"></div>
+  <a class="hero_link" href="https://t.me/lovewhenhairmenaresmearedwithoil"><i class='bx bxl-telegram'></i></a>
+  <a class="hero_link" href="https://vk.com/"><i class='bx bxl-vk' ></i></i></a>
+<script>
+    function calc() {
+        let sum = (a, b) => a + b
+         let min = (a, b) => a - b
+         let umn = (a, b) => a * b
+         let del = (a, b) => a / b
+        let a = Number(prompt("Первое число"))
+        let c = prompt("Знак")
+        let b = Number(prompt("Второе число"))
+        if (c == "+") {
+            alert(sum(a,b))
+        }
+        if (c == "-") {
+                alert(min(a,b))
+        }
+        if (c == "*") {
+                alert(umn(a,b))
+        }
+        if (c == "/") {
+                alert(del(a,b))
+        }
+    }
+</script>
+</body>
+</html>
